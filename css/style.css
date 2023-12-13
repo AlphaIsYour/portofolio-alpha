@@ -116,6 +116,15 @@ body {
     line-height: 1.2;
 }
 
+.content .yue h1 {
+    font-family: 'VALORANT', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    line-height: 1.2;
+}
+
 .hero .content h1 span {
     color: var(--biru);
 }
@@ -348,15 +357,16 @@ body {
     font-size: 6em;
     font-weight: bold;
     font-style: italic;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top: 65px;
+    right: 50%;
+    
     opacity: 0;
     transition: 0.5s;
 }
 
 .mc-box1:hover::before {
     opacity: 0.3;
+    transform: translate(50%, 0);
 }
 
 .mc-box1::after {
@@ -369,13 +379,13 @@ body {
     font-style: italic;
     top: 350px;
     left: 50%;
-    transform: translate(-50%, 0);
     opacity: 0;
     transition: 0.5s;
 }
 
 .mc-box1:hover::after {
     opacity: 0.3;
+    transform: translate(-50%, 0);
 }
 
 .mc-name1 {
@@ -441,15 +451,16 @@ body {
     font-size: 6em;
     font-weight: bold;
     font-style: italic;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top: 65px;
+    right: 50%;
+    
     opacity: 0;
     transition: 0.5s;
 }
 
 .mc-box2:hover::before {
     opacity: 0.3;
+    transform: translate(50%, 0);
 }
 
 .mc-box2::after {
@@ -462,13 +473,14 @@ body {
     font-style: italic;
     top: 350px;
     left: 50%;
-    transform: translate(-50%, 0);
+    
     opacity: 0;
     transition: 0.5s;
 }
 
 .mc-box2:hover::after {
     opacity: 0.3;
+    transform: translate(-50%, 0);
 }
 
 .mc-name2 {
@@ -477,7 +489,7 @@ body {
     top: 0;
     width: 100%;
     position: absolute;
-    color: var(--hitam);
+    color: #f8f8f8;
     text-align: center;
     font-size: 2em;
     opacity: 0;
@@ -534,15 +546,16 @@ body {
     font-size: 6em;
     font-weight: bold;
     font-style: italic;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, 0);
+    top: 65px;
+    right: 50%;
+    
     opacity: 0;
     transition: 0.5s;
 }
 
 .mc-box3:hover::before {
     opacity: 0.3;
+    transform: translate(50%, 0);
 }
 
 .mc-box3::after {
@@ -555,13 +568,14 @@ body {
     font-style: italic;
     top: 350px;
     left: 50%;
-    transform: translate(-50%, 0);
+    
     opacity: 0;
     transition: 0.5s;
 }
 
 .mc-box3:hover::after {
     opacity: 0.3;
+    transform: translate(-50%, 0);
 }
 
 .mc-name3 {
